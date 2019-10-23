@@ -1,25 +1,44 @@
- // logid konsoolile
+// Muutujad 
 
- // logid
- console.log("123");
- // tabel
- console.table({a: 1, b:2});
+// var
+// muutujate defineerimine
+var nimi = 'Mihkel'; // defineerimine
+console.log(nimi);
+nimi = 'Katrin'; // väärtuse omistamine
+console.log(nimi);
 
- // veateade
- console.error("See on mingi viga");
+//muutujate initsialiseerimine :
+var tervitus;
+console.log(tervitus);
+tervitus = 'Tere tulemast!';
+console.log(tervitus);
 
- // märkused
- console.warn("See on märkus");
+// liitnimede kasutamine
+var eesNimi = 'Mihkel'; // Camel Stiil
+var ees_nimi = 'Mihkel'; // PHP stiil
+var EesNimi ='Mihkel'; //Pascal Stiil
+var eesnimi ='Mihkel';
 
- // ajakulu
- console.time("Test");
-    console.log("mingi tegevus");
-    console.log("mingi tegevus");
-    console.log("mingi tegevus");
-    console.log("mingi tegevus");
-    console.log("mingi tegevus");
-console.timeEnd("Test");
+// let
+let pereNimi = 'Kaasik';
+console.log(pereNimi);
+pereNimi = '?????';
+console.log(pereNimi);
 
-//kustutamine
+// const
+const minuEesNimi ='Mihkel';
+console.log(minuEesNimi);
+// minuEesNimi ='Guido'
 
-console.clear();
+// const kasutamise näide 
+const inimene = {nimi : 'Guido', vanus :99};
+console.table(inimene);
+inimene.vanus = 21;
+console.table(inimene);
+
+// const kasutamine näide 2
+const arvud = [1, 2, 3 ,4 ,5];
+console.log(arvud);
+arvud.push(6);
+console.log(arvud);
+
