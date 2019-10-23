@@ -4,3 +4,5 @@
 * git lokaalne repo loomine - pa
 * github repo loomine - pa 
 * Kursuse põhifailide loomine ja testimine
+## Materjalid
+* PA käsiraamat (https://github.com/AnnaKarutina/pa_kd19)

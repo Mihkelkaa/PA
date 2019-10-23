@@ -1,27 +1,25 @@
- // Andmetüübid
+ // logid konsoolile
 
- // täisarvud
- console.log(10);
- console.log(-4);
- console.log(0);
+ // logid
+ console.log("123");
+ // tabel
+ console.table({a: 1, b:2});
 
- // realarvud .ujuvkomaarvud
+ // veateade
+ console.error("See on mingi viga");
 
- console.log(2.5);
- console.log(-7.23);
- console.log(-2.0);
+ // märkused
+ console.warn("See on märkus");
 
- // sõnad - tekst
- console.log('Hello world!');
+ // ajakulu
+ console.time("Test");
+    console.log("mingi tegevus");
+    console.log("mingi tegevus");
+    console.log("mingi tegevus");
+    console.log("mingi tegevus");
+    console.log("mingi tegevus");
+console.timeEnd("Test");
 
- // tõeväärtused
- console.log(true);
- console.log(false);
- 
- // nimekirjad
- console.log([1, 2, 3, 4, 5 ]);
+//kustutamine
 
- //objektid
-console.log({a : 1, b : 2});
-console.table({a :1, b : 2});
-
+console.clear();
