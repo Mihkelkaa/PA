@@ -42,3 +42,8 @@ console.log(arvud);
 arvud.push(6);
 console.log(arvud);
 
+    sisestatud_pin = input("Sisesta PIN-kood: ")
+    if sisestatud_pin == "1234":
+        print("Sisenesid pangaautomaati!")
+    else:
+        print("Vale parool! Ligipääs keelatud!")
