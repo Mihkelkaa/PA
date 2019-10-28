@@ -45,7 +45,7 @@ console.log(arvud);
 print("Kui vana oled?")
 vanus = int(input())
  
-if vanus < 14:
+if (vanus < 14){
     print("Oled natukene noor edasipääsuks.")
-else:
-    print("Sisenesid võlumaailma.")
+}else{
+    print("Sisenesid võlumaailma.")}
