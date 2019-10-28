@@ -4,7 +4,15 @@
 // üldtsüklid
 // let arv;
 for(let arv = 1; arv <= 10; arv++){
-    console.log('arv = ' + arv);
-} else{
-    console.log('arv= ' + arv);
+    lause ='arv = ';
+    if (arv < 10){
+    lause = lause + ' ';
+} 
+lause = lause + arv;
+if (arv % 2 == 0){
+    lause = lause + ' - paaris'
+} else {
+    lause = lause + ' - paaritu';
+}
+console.log(lause);
 }
